@@ -1,0 +1,97 @@
+::-moz-selection {
+	color: #000;
+	background: #F4CAE0;
+}
+
+::selection {
+	color: #000;
+	background: #F4CAE0;
+}
+
+html, body {height: 100%}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Source Code Pro', 'Andale Mono', 'Consolas', 'Monaco', 'Lucida Console', monospace;
+	color: #fff;
+	background: #111625;
+	background: -webkit-radial-gradient(top, circle, #291427, #080b12);
+	background: -moz-radial-gradient(top, circle, #291427, #080b12);
+	background: -o-radial-gradient(top, circle, #291427, #080b12);
+	background: radial-gradient(top, circle, #291427, #080b12);
+}
+
+div, p {
+	padding: 5vh 0;
+	font-weight: 200;
+}
+
+div {font-size: 2em}
+
+p {font-size: 1.34em}
+
+div * {
+	margin: 0;
+	padding: 1%;
+	border: 0px solid;
+	font-weight: 200;
+	transition: .5s;
+}
+
+div *:hover, a:hover {font-weight: 900}
+
+h1:hover {
+	color: #F4CAE0;
+	border-left: 1vw solid #F4CAE0;
+	border-right: 1vw solid #F4CAE0;
+}
+h2:hover {
+	color: #D7B9D5;
+	border-left: 2vw solid #D7B9D5;
+	border-right: 2vw solid #D7B9D5;
+}
+h3:hover {
+	color: #ADA7C9;
+	border-left: 4vw solid #ADA7C9;
+	border-right: 4vw solid #ADA7C9;
+}
+h4:hover {
+	color: #90A8C3;
+	border-left: 8vw solid #90A8C3;
+	border-right: 8vw solid #90A8C3;
+}
+h5:hover {
+	color: #64A6BD;
+	border-left: 16vw solid #64A6BD;
+	border-right: 16vw solid #64A6BD;
+}
+h6:hover {
+	border-left: 32vw solid;
+	border-right: 32vw solid;
+}
+
+
+a:link {
+	color: #F4CAE0;
+	transition: .5s;
+}
+
+a:visited {color: #64A6BD}
+a:active {color: #fff}
+
+ul {
+	position: fixed;
+	visibility: hidden;
+}
+
+li:nth-child(1) {font-weight: 300}
+li:nth-child(2) {font-weight: 500}
+li:nth-child(3) {font-weight: 600}
+li:nth-child(4) {font-weight: 700}
+li:nth-child(5) {font-weight: 800}
+li:nth-child(6) {font-weight: 900}
