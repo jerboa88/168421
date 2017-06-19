@@ -33,6 +33,11 @@ body {
 	background: radial-gradient(top, circle, #291427, #080b12);
 }
 
+em {
+	font-size: 2.985074627em;
+	font-style: normal;
+}
+
 div, p {
 	padding: 5vh 0;
 	font-weight: 200;
