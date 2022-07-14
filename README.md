@@ -1,10 +1,26 @@
-# [168421.xyz](http://168421.xyz) [Web]
-![](https://img.shields.io/badge/type-HTML-orange.svg "Project type")
-![](https://img.shields.io/github/repo-size/jerboa88/168421.svg "Repository size")
-[![](https://img.shields.io/github/license/jerboa88/168421.svg "Project license")](LICENSE)
+<!-- Project Header -->
+<div align="center">
+  <img class="projectLogo" src="favicon.svg" alt="Project logo" title="Project logo" width="256">
 
+  <h1 class="projectName">
+    <a href="https://168421.xyz">168421.xyz</a>
+  </h1>
 
-A simple placeholder/cover page for [168421.xyz](http://168421.xyz)
+  <p class="projectBadges">
+    <img src="https://img.shields.io/badge/type-Website-ff5722.svg" alt="Project type" title="Project type"/>
+    <img src="https://img.shields.io/github/languages/top/jerboa88/168421.svg" alt="Language" title="Language"/>
+    <img src="https://img.shields.io/github/repo-size/jerboa88/168421.svg" alt="Repository size" title="Repository size"/>
+    <a href="LICENSE">
+      <img src="https://img.shields.io/github/license/jerboa88/168421.svg" alt="Project license" title="Project license"/>
+    </a>
+  </p>
+  
+  <p class="projectDesc">
+    A simple placeholder/cover page for 168421.xyz
+  </p>
+  
+  <br/>
+</div>
 
 
 ## License
