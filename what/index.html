@@ -31,7 +31,7 @@
 
 	<p>
 		This is a simple placeholder/cover page for 168421.xyz. I use this domain name for other things and wanted it to look nice.<br><br>
-		If you really want this domain, please <a href="https://tny.im/168421">send me an email</a> and we can work something out.<br><br>
+		If you really want this domain, please <a id="addy" href="#" data-username="168421xyz" data-domain="o.johng.io">send me an email</a> and we can work something out.<br><br>
 		Handcrafted with ♥ & hosted by <a href="https://github.com/jerboa88/168421">Github</a>.
 	</p>
 
@@ -46,6 +46,17 @@
 		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga')
 		ga('create', 'UA-101162837-1', 'auto')
 		ga('send', 'pageview')
+
+		document.getElementById('addy').addEventListener('click', function (event) {
+            event.preventDefault();
+
+            const link = event.target;
+			const address = `${link.getAttribute('data-username')}@${link.getAttribute('data-domain')}`;
+            const mailtoAddress = `mailto:${address}`;
+
+			link.href = mailtoAddress
+            window.location.href = mailtoAddress;
+        });
 	</script>
 </body>
 </html>
