@@ -15,7 +15,7 @@
     </a>
   </p>
   
-  <p class="projectDesc" data-exposition="A simple placeholder site for one of my domain names, built using vanilla HTML and CSS.">
+  <p class="projectDesc">
     A simple placeholder/cover page for 168421.xyz
   </p>
   
