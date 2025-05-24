@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 511.99999 511.99999"
+   id="svg2"
+   version="1.1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4138">
+      <stop
+         style="stop-color:#341931;stop-opacity:1"
+         offset="0"
+         id="stop4140" />
+      <stop
+         style="stop-color:#111625;stop-opacity:1"
+         offset="1"
+         id="stop4142" />
+    </linearGradient>
+    <radialGradient
+       xlink:href="#linearGradient4138"
+       id="radialGradient4146"
+       cx="256"
+       cy="540.36218"
+       fx="256"
+       fy="540.36218"
+       r="256"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,-540.36219)" />
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     style="fill:url(#radialGradient4146);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect4136"
+     width="512"
+     height="512"
+     x="0"
+     y="-7.3828123e-06" />
+  <g
+     aria-label="16"
+     id="text4148"
+     style="line-height:0%;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;stroke-width:1px">
+    <path
+       d="m 96.781483,355.84375 v -12.1875 h 59.687497 v -165.625 h -44.6875 v -9.375 q 10.625,-1.25 19.375,-3.125 8.75,-2.1875 15.9375,-4.375 7.1875,-2.5 12.8125,-5 h 10.3125 v 187.5 h 56.25 v 12.1875 z"
+       style="font-weight:300;font-size:312.5px;line-height:1.25;-inkscape-font-specification:'Source Code Pro Light'"
+       id="path2957" />
+    <path
+       d="m 351.46851,359.59375 q -16.875,0 -30.625,-6.25 -13.4375,-6.25 -23.125,-18.125 -9.6875,-11.875 -15,-29.375 -5.3125,-17.8125 -5.3125,-40.625 0,-31.25 6.875,-52.8125 6.875,-21.875 18.125,-35 11.5625,-13.125 26.5625,-19.0625 15,-5.9375 30.9375,-5.9375 16.5625,0 28.75,5.3125 12.5,5.3125 22.1875,14.0625 l -8.4375,9.375 q -8.4375,-8.125 -19.375,-12.1875 -10.625,-4.375 -23.125,-4.375 -18.125,0 -33.75,9.6875 -15.625,9.375 -25.3125,31.5625 -9.375,21.875 -9.375,59.375 0,24.375 6.25,43.125 6.5625,18.4375 20,29.0625 13.4375,10.3125 34.375,10.3125 14.0625,0 25,-6.5625 11.25,-6.875 17.5,-18.125 6.5625,-11.5625 6.5625,-25.9375 0,-23.75 -12.5,-36.875 -12.5,-13.125 -37.8125,-13.125 -13.4375,0 -29.375,7.1875 -15.9375,7.1875 -31.25,25 v -14.6875 q 13.125,-13.4375 28.75,-21.25 15.9375,-8.125 33.75,-8.125 19.0625,0 33.125,7.1875 14.0625,7.1875 21.5625,20.9375 7.8125,13.75 7.8125,33.75 0,18.125 -8.75,32.1875 -8.75,14.0625 -23.4375,22.1875 -14.375,8.125 -31.5625,8.125 z"
+       style="font-weight:300;font-size:312.5px;line-height:1.25;-inkscape-font-specification:'Source Code Pro Light'"
+       id="path2959" />
+  </g>
+</svg>
