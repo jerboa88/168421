@@ -2,8 +2,8 @@
 	"$schema": "https://johng.io/schema/project-metadata.json",
 	"name": "168421.xyz",
 	"background": "A simple placeholder site for one of my domain names, built using vanilla HTML and CSS.",
-  "logoPath": "favicon.svg",
-  "category": "Website",
+	"logoPath": "images/favicon.svg",
+	"category": "Website",
 	"schema": {
 		"type": "Web",
 		"applicationCategory": "Developer",
