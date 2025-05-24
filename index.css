@@ -1,111 +1,137 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: defaults
+*/
+
+:root {
+	--color-base-1: #080b12;
+	--color-base-2: #111625;
+	--color-base-3: #291427;
+	--color-text: #fff;
+	--color-primary: #f4cae0;
+	--color-secondary: #64a6bd;
+
+	--font-size-base: 1rem;
+	--font-size-lg: 2rem;
+	--font-size-xl: 3rem;
+
+	--font-weight-min: 200;
+	--font-weight-max: 900;
+
+	--max-width: 32rem;
+
+	--transition-duration: .5s;
+}
+
 ::-moz-selection {
-	color: #000;
-	background: #F4CAE0;
+	color: var(--color-base-1);
+	background: var(--color-primary);
 }
 
 ::selection {
-	color: #000;
-	background: #F4CAE0;
+	color: var(--color-base-1);
+	background: var(--color-primary);
 }
 
-html, body {height: 100%}
+html,
+body {
+	height: 100%;
+}
 
 body {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-			-ms-flex-direction: column;
-					flex-direction: column;
-	-webkit-box-pack: center;
-			-ms-flex-pack: center;
-					justify-content: center;
+	flex-direction: column;
+	justify-content: center;
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	font-family: 'Source Code Pro', 'Andale Mono', 'Consolas', 'Monaco', 'Lucida Console', monospace;
-	color: #fff;
-	background: #111625;
-	background: -webkit-radial-gradient(top, circle, #291427, #080b12);
-	background: -moz-radial-gradient(top, circle, #291427, #080b12);
-	background: -o-radial-gradient(top, circle, #291427, #080b12);
-	background: radial-gradient(top, circle, #291427, #080b12);
+	font-family: "Source Code Pro", "Andale Mono", "Consolas", "Monaco",
+		"Lucida Console", monospace;
+	color: var(--color-text);
+	background: var(--color-base-2);
+	background: radial-gradient(
+		circle at top,
+		var(--color-base-3),
+		var(--color-base-1)
+	);
 }
 
 em {
-	font-size: 2.985074627em;
+	font-size: var(--font-size-xl);
 	font-style: normal;
 }
 
-div, p {
+main {
+	display: flex;
+	flex-direction: column;
 	padding: 5vh 0;
-	font-weight: 200;
+	align-items: center;
 }
 
-div {font-size: 2em}
+section {
+	max-width: var(--max-width);
+}
 
-p {font-size: 1.34em}
+.showcase {
+	font-size: var(--font-size-lg);
+}
 
-div * {
+.showcase > * {
+	box-sizing: border-box;
+	width: 100%;
 	margin: 0;
 	padding: 1%;
 	border: 0px solid;
-	font-weight: 200;
-	-webkit-transition: .5s;
-	transition: .5s;
+	font-weight: var(--font-weight-min);
+	transition: var(--transition-duration);
 	cursor: default;
 }
 
-div *:hover, a:hover {font-weight: 900}
+.showcase > *:hover,
+a:hover {
+	font-weight: var(--font-weight-max);
+}
 
 h1:hover {
-	color: #F4CAE0;
-	border-left: 1vw solid #F4CAE0;
-	border-right: 1vw solid #F4CAE0;
+	color: var(--color-primary);
+	border-left: 1vw solid var(--color-primary);
+	border-right: 1vw solid var(--color-primary);
 }
 h2:hover {
-	color: #D7B9D5;
-	border-left: 2vw solid #D7B9D5;
-	border-right: 2vw solid #D7B9D5;
+	color: #d7b9d5;
+	border-left: 2vw solid #d7b9d5;
+	border-right: 2vw solid #d7b9d5;
 }
 h3:hover {
-	color: #ADA7C9;
-	border-left: 4vw solid #ADA7C9;
-	border-right: 4vw solid #ADA7C9;
+	color: #ada7c9;
+	border-left: 4vw solid #ada7c9;
+	border-right: 4vw solid #ada7c9;
 }
 h4:hover {
-	color: #90A8C3;
-	border-left: 8vw solid #90A8C3;
-	border-right: 8vw solid #90A8C3;
+	color: #90a8c3;
+	border-left: 8vw solid #90a8c3;
+	border-right: 8vw solid #90a8c3;
 }
 h5:hover {
-	color: #64A6BD;
-	border-left: 16vw solid #64A6BD;
-	border-right: 16vw solid #64A6BD;
+	color: var(--color-secondary);
+	border-left: 16vw solid var(--color-secondary);
+	border-right: 16vw solid var(--color-secondary);
 }
 h6:hover {
 	border-left: 32vw solid;
 	border-right: 32vw solid;
 }
 
-
 a:link {
-	color: #F4CAE0;
-	-webkit-transition: .5s;
-	transition: .5s;
+	color: var(--color-primary);
+	transition: var(--transition-duration);
 }
 
-a:visited {color: #64A6BD}
-a:active {color: #fff}
-
-ul {
-	position: fixed;
-	visibility: hidden;
+a:visited {
+	color: var(--color-secondary);
 }
-
-li:nth-child(1) {font-weight: 300}
-li:nth-child(2) {font-weight: 500}
-li:nth-child(3) {font-weight: 600}
-li:nth-child(4) {font-weight: 700}
-li:nth-child(5) {font-weight: 900}
+a:active {
+	color: var(--color-text);
+}
